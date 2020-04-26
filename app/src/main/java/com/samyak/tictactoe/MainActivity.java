@@ -21,10 +21,8 @@ public class MainActivity extends AppCompatActivity {
 
         counter.getTag();
         int tappedcounter = Integer.parseInt(counter.getTag().toString());
-
-
+        
         if (game[tappedcounter] == 2 && gameisactive) {
-
             game[tappedcounter] = active;
 
             counter.setTranslationY(-1000f);
