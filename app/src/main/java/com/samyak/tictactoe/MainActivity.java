@@ -87,9 +87,6 @@ public class MainActivity extends AppCompatActivity {
 
         }
     }
-
-
-
      /*   public void playme(View view) {
 
         gameisactive = true;
@@ -107,8 +104,6 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 0; i < gridLayout.getChildCount(); i++) {
             ((ImageView) gridLayout.getChildAt(i)).setImageResource(0);
         }
-
-
     }     */
 
     @Override
