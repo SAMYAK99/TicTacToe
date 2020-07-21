@@ -85,24 +85,7 @@ public class MainActivity extends AppCompatActivity {
 
         }
     }
-     /*   public void playme(View view) {
-
-        gameisactive = true;
-        LinearLayout layout = (LinearLayout) findViewById(R.id.playagainlayout);
-
-        layout.setVisibility(View.INVISIBLE);
-        active = 0;
-
-        for (int i = 0; i < game.length; i++) {
-
-            game[i] = 2;
-        }
-
-        GridLayout gridLayout = (GridLayout) findViewById(R.id.gridlayout);
-        for (int i = 0; i < gridLayout.getChildCount(); i++) {
-            ((ImageView) gridLayout.getChildAt(i)).setImageResource(0);
-        }
-    }     */
+    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
